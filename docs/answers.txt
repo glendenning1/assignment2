@@ -1,0 +1,74 @@
+
+Task 5 Question Responses:
+
+ 1. $ git push
+    Enumerating objects: 9, done.
+    Counting objects: 100% (9/9), done.
+    Delta compression using up to 16 threads
+    Compressing objects: 100% (5/5), done.
+    Writing objects: 100% (7/7), 746 bytes | 746.00 KiB/s, done.
+    Total 7 (delta 2), reused 0 (delta 0), pack-reused 0
+    remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+    To https://github.com/glendenning1/assignment2.git
+       f4975e5..85a8a05  master -> master
+
+ 2. $ git rev-list --all --count
+    9 commits have been made to this repository
+
+ 3. $ git log README.md
+    commit 0ff91f20de58ee6699d4d8f6d906e29522cd9c78
+    Author: glendenning1 <mdg18bl@my.fsu.edu>
+    Date:   Mon Sep 28 16:11:02 2020 -0400
+
+        Repository owner information added to README.md
+
+    The README.md file was last modified Monday, September 28, 2020 at 4:11pm.
+
+ 4. Branches are used to so that developers can work on the same project at the
+    same time without modifying the master branch. In addition, using branches
+    allows the original code to be tested with the changes before merging so
+    bugs are not permanently introduced into the project.
+
+ 5. 'git log' outputs the commit history for a repository and 'git status'
+    outputs the comparison status between the remote and original repository.
+
+ 6. 'git log' Vehicle.h would output the commits in which Vehicle.h was committed.
+
+ 7. 'git log --grep=file' would output commits that contain a commit message with
+    the word "file."
+
+ 8.   I. In object-oriented programming, inheritance is the relationship between
+	 associated classes. Inheritance contains at least two classes: the base,
+	 parent, or super class and the derived, child, or subclass. The derived
+	 class can share properties with the base class.
+     II. In object-oriented programming, polymorphism is when properties of a
+	 class are reused. Examples of polymorphism include inherited methods or
+	 variables and non-type-specific variables.
+    III. In object-oriented programming, encapsulation is, essentially, data
+	 hiding. Encapsulation allows developers to disregard data, itself, and
+	 focus on how the data is used.
+
+ 9. The main difference between the "Dictator and Lieutenants" workflow and the
+    "Integration Manager" workflow is that the "Dictator and Lieutenant" workflow
+    allows for more integration of developer repositories before pushing to the
+    blessed repository. In the "Integration Manager" workflow, the developers push
+    code to their public repository which is then pulled into the integration 
+    manager, merged, and push to the blessed repository. The "Dictator and
+    Lieutenants" workflow allows for an extra pull and merge before being pushed
+    to the blessed repository.
+
+10. A large team would benefit from a "Dictator and Lieutenants" workflow
+    because the "Centralized" workflow does not allow for simultaneous development
+    updates. Because the "Centralized" workflow allows developers to push into the
+    main repository as needed, they could be updating or writing to a previous
+    version of the software in the repository. By using the "Dictator and
+    Lieutenants" workflow, the updates could be halted in either the lieutenant or
+    dictator step and allow for all the updates with a current version to finish
+    commit before moving to the next commit in the main repository.
+
+
+
+SOURCES:
+2. https://www.quora.com/How-can-I-tell-how-many-commits-are-in-my-git-repository
+3. https://stackoverflow.com/questions/22497597/get-the-last-modification-data-of-a-file-in-git-repo
+7. https://stackoverflow.com/questions/1337320/how-to-grep-git-commit-diffs-or-contents-for-a-certain-word
