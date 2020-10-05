@@ -1,4 +1,13 @@
 
+Michael Glendenning
+CEN4020
+Fall 2020
+Assignment 3: Git and Object Oriented Programming Warm Up
+
+GitLab Tutorial Date: September 28, 2020
+GitHub account creation data: May 10, 2019
+https://github.com/glendenning1/assignment2
+
 Task 5 Question Responses:
 
  1. $ git push
